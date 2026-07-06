@@ -1,7 +1,4 @@
-from add import add
-from minus import minus
-from multiplication import multiplication
-from division import division
+from . import *
 
 if __name__ == '__main__':
     print("--- 계산기 패키지 실행 ---")

@@ -1,6 +1,10 @@
-from TTEST import *
+from add import add
+from minus import minus
+from multiplication import multiplication
+from division import division
 
-print(f'add(2, 3) = {add(2, 3)}')
-print(f'subtract(5, 3) = {subtract(5, 3)}')
-print(f'divide(10, 2) = {divide(10, 2)}')
-print(f'multiply(4, 6) = {multiply(4, 6)}')
+if __name__ == '__main__':
+    print(f"3 + 5 = {add(3, 5)}")
+    print(f"10 - 4 = {minus(10, 4)}")
+    print(f"3 * 5 = {multiplication(3, 5)}")
+    print(f"10 / 2 = {division(10, 2)}")
